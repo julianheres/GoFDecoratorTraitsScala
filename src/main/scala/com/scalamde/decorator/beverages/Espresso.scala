@@ -1,6 +1,6 @@
-package com.scalamde.beverages
+package com.scalamde.decorator.beverages
 
-import com.scalamde.Beverage
+import com.scalamde.decorator.Beverage
 
 class Espresso extends Beverage {
 

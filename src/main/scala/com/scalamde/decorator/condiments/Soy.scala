@@ -1,6 +1,6 @@
-package com.scalamde.condiments
+package com.scalamde.decorator.condiments
 
-import com.scalamde.Beverage
+import com.scalamde.decorator.Beverage
 
 trait Soy extends Beverage {
 

@@ -1,7 +1,7 @@
-package com.scalamde
+package com.scalamde.decorator
 
-import com.scalamde.beverages.{DarkRoast, Espresso, HouseBlend}
-import com.scalamde.condiments.{Soy, Whip, Milk, Mocha}
+import com.scalamde.decorator.beverages.{DarkRoast, Espresso, HouseBlend}
+import com.scalamde.decorator.condiments.{Milk, Mocha, Soy, Whip}
 import org.scalatest.FunSuite
 
 class BeveragesTest extends FunSuite {

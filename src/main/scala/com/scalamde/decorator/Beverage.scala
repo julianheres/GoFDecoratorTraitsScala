@@ -1,4 +1,4 @@
-package com.scalamde
+package com.scalamde.decorator
 
 abstract class Beverage {
 
