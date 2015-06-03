@@ -5,23 +5,22 @@ import com.scalamde.stackabletraits.Pelota
 package object rasgos {
 
   trait Roja extends Pelota {
-    override def propiedades() = super.propiedades ::: List("roja")
+    override def propiedades() = List("roja") ++ super.propiedades
   }
 
   trait DeColores extends Roja {
-    override def propiedades() = super.propiedades ::: List("de colores")
+    override def propiedades() = List("de colores") ++ super.propiedades
   }
 
   trait Brillante extends Pelota {
-    override def propiedades() = super.propiedades ::: List("brillante")
+    override def propiedades() = List("brillante") ++ super.propiedades
   }
 
   trait Rebota extends Pelota {
-    override def propiedades() = super.propiedades ::: List("rebota")
+    override def propiedades() = List("rebota") ++ super.propiedades
   }
 
   trait Desinflada extends Pelota {
-    override def propiedades() = super.propiedades ::: List("desinflada")
+    override def propiedades() = List("desinflada") ++ super.propiedades
   }
-
 }
